@@ -2080,8 +2080,23 @@ public final class Settings {
          * @hide
          */
         public static final String BUTTON_BACKLIGHT_TIMEOUT = "button_backlight_timeout";
+       
+        /**
+         * Defines global heads up snooze time if user want to snooze it.
+         *
+         * @hide
+         */
+        public static final String HEADS_UP_SNOOZE_TIME = "heads_up_snooze_time";
 
-        /** Whether to allow one finger quick settings expansion on the right side of the statusbar.
+        /**
+         * Defines the global heads up notification decay
+         *
+         * @hide
+         */
+        public static final String HEADS_UP_NOTIFCATION_DECAY = "heads_up_notification_decay";
+
+        /**
+         * Whether to allow one finger quick settings expansion on the right side of the statusbar.
          *
          * @hide
          */

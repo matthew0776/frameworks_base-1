@@ -44,5 +44,7 @@ oneway interface IStatusBar
     void preloadRecentApps();
     void cancelPreloadRecentApps();
     void notifyLayoutChange(int direction);
+    void hideHeadsUpCandidate(String packageName);
+    void scheduleHeadsUpClose();
 }
 
